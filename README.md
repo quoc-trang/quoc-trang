@@ -2,7 +2,7 @@
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning NextJS and TypeScript
 - 💞️ I’m looking to collaborate on 
-- 📫 How to reach me ...
+- 📫 How to reach me through quoctrang2701@gmail.com
 
 <!---
 quoc-trang/quoc-trang is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
