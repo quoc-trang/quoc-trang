@@ -4,5 +4,5 @@ body {
 }
 
 .fav-border {
-  @apply border-b-2 border-primary border-dashed pb-[2px];
+  @apply border-b-2 border-primary pb-[2px];
 }
