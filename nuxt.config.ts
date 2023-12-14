@@ -4,7 +4,9 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
-      Montserrat: true,
+      Montserrat: {
+        wght: "200..900",
+      },
     },
   },
   css: ["~/assets/css/main.css"],

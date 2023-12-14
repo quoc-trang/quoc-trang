@@ -1,3 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
+  @apply bg-secondary text-white leading-6 text-sm md:text-lg;
+}
+
+.fav-border {
+  @apply border-b-2 border-primary border-dashed pb-[2px];
 }
