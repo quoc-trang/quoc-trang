@@ -1,8 +1,16 @@
 body {
   font-family: "Montserrat", sans-serif;
-  @apply bg-secondary text-white leading-6 text-sm md:text-lg;
+  @apply leading-6 text-sm md:text-lg;
 }
 
 .fav-border {
   @apply border-b-2 border-primary pb-[2px];
+}
+
+.dark-mode body {
+  @apply bg-secondary text-white;
+}
+
+.light-mode body {
+  @apply bg-white text-secondary;
 }

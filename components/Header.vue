@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-full flex justify-between md:justify-around items-center pr-5 sm:pr-10 z-10"
+    class="w-full flex justify-between md:justify-around items-center pr-5 sm:pr-10 z-10"
   >
     <Logo
       class="w-12 sm:w-20 ml-5 sm:ml-0 cursor-pointer"
