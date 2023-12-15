@@ -16,3 +16,16 @@ export const SOCIALS = [
     url: "https://www.tiktok.com/@vanlaanh_2k",
   },
 ];
+
+export const NAVBAR = [
+  {
+    to: "/blog",
+    icon: "ri:article-line",
+    text: "Blog",
+  },
+  {
+    to: "/projects",
+    icon: "ri:file-paper-2-line",
+    text: "Projects",
+  },
+];

@@ -1,5 +1,5 @@
 <template>
-  <div>Build with <img src="~/assets/images/nuxtjs.png" /></div>
+  <div>comming soon</div>
 </template>
 
 <script setup lang="ts"></script>

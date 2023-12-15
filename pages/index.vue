@@ -1,5 +1,5 @@
 <template>
-  <section class="w-screen h-screen flex flex-col items-center px-4">
+  <section class="w-screen flex flex-col items-center px-4 relative">
     <div class="mt-32 md:mt-40">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
       <p class="leading-6 md:leading-8 mt-10">
@@ -8,7 +8,7 @@
         <NuxtLink
           to="https://recruit-vn.raksul.com/"
           target="_blank"
-          class="fav-border font-bold hover:opacity-80 duration-300"
+          class="font-bold hover:text-primary duration-300"
           >Raksul Viet Nam</NuxtLink
         >
         <br />
@@ -17,7 +17,7 @@
         <NuxtLink
           to="https://www.tiktok.com/@vanlaanh_2k"
           target="_blank"
-          class="fav-border font-bold hover:opacity-80 duration-300"
+          class="font-bold hover:text-primary duration-300"
           >Tiktok,</NuxtLink
         >
         I want to be famous 😂
@@ -47,6 +47,15 @@
         </ul>
       </div>
     </div>
+
+    <NuxtLink
+      to="https://nuxt.com/"
+      class="flex mt-20 md:mt-40 duration-300 hover:text-primary"
+      target="_blank"
+    >
+      <span class="mr-2 text-sm translate-y-[2px]">build with</span>
+      <img src="~/assets/images/nuxtjs.png" width="20" />
+    </NuxtLink>
   </section>
 </template>
 
