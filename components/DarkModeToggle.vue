@@ -2,11 +2,14 @@
   <IconMoon
     v-if="$colorMode.value === 'dark'"
     class="cursor-pointer"
-    @click="$colorMode.value = 'light'"
+    @click="toggleMode('light')"
   />
-  <IconSun
-    v-if="$colorMode.value === 'light'"
-    class="cursor-pointer"
-    @click="$colorMode.value = 'dark'"
-  />
+  <IconSun v-else class="cursor-pointer" @click="toggleMode('dark')" />
 </template>
+
+<script lang="ts" setup>
+const colorMode = useColorMode();
+const toggleMode = (mode: "dark" | "light") => {
+  colorMode.value = mode;
+};
+</script>
