@@ -1,6 +1,6 @@
 <template>
   <IconMoon
-    v-if="$colorMode.value === 'dark'"
+    v-if="isDarkMode"
     class="cursor-pointer"
     @click="toggleMode('light')"
   />
@@ -12,4 +12,14 @@ const colorMode = useColorMode();
 const toggleMode = (mode: "dark" | "light") => {
   colorMode.value = mode;
 };
+
+const isDarkMode = ref(false);
+
+watch(colorMode, () => {
+  if (colorMode.value === "dark") {
+    isDarkMode.value = true;
+  } else {
+    isDarkMode.value = false;
+  }
+});
 </script>
