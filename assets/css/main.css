@@ -1,3 +1,7 @@
+html {
+  @apply snap-y snap-mandatory;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   @apply leading-6 text-sm md:text-lg;

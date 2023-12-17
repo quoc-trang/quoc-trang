@@ -19,13 +19,18 @@ export const SOCIALS = [
 
 export const NAVBAR = [
   {
-    to: "/blog",
-    icon: "ri:article-line",
-    text: "Blog",
+    to: "/travels",
+    icon: "material-symbols:travel",
+    text: "Travels",
   },
-  {
-    to: "/projects",
-    icon: "ri:file-paper-2-line",
-    text: "Projects",
-  },
+  // {
+  //   to: "/blog",
+  //   icon: "ri:article-line",
+  //   text: "Blog",
+  // },
+  // {
+  //   to: "/projects",
+  //   icon: "ri:file-paper-2-line",
+  //   text: "Projects",
+  // },
 ];
