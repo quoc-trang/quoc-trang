@@ -2,7 +2,7 @@ export const SOCIALS = [
   {
     icon: "ri:twitter-x-fill",
     name: "Twitter",
-    url: "https://twitter.com/TRANGQUOC12",
+    url: "https://twitter.com/ngoiisaocodon",
   },
   {
     icon: "mdi:instagram",
@@ -88,4 +88,16 @@ export const DATE2 = [
   "8h30: Cà phê picnic siêu chill ở The Camp Inn - 65k - Chân đèo Mimosa",
   "10h00: Chạy xe 1 vòng hóng mát, ghé qua dốc Nhớ Hoài",
   "11h30: Ăn trưa ở Chợ Phiên Quán - 108 Vạn Hạnh, P8 12h30: Check-out homestay",
+];
+
+export const BARS_PLACES = [
+  "ABIT BAR & BISTRO - 61 Nguyễn Trãi, P9 THE BALCONY - 6 Quang Trung, P10",
+  "CI COCKTAIL BAR – 31 Trương Công Định, P1",
+  "GEMINATION EATERY & BAR - 24 Trương Công Định, P1 ",
+  "ON THE ROCKS - Tầng hầm 69, Trương Công Định, P1 ",
+  "D’DARK COCKTAIL BAR - Hẻm 40 H.T.Công Chúa, P4 ",
+  "4:20 SUNSET COCKTAIL BAR - Hẻm 84 Đống Đa, P3 ",
+  "444 - COCKTAIL LOVERS - 01 Đống Đa, P3 ",
+  "FOX’ DEN - 56 Tăng Bạt Hổ, P1",
+  "WOODY - 49A Trương Công Định, P1",
 ];

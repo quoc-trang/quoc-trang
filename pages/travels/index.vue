@@ -27,10 +27,18 @@
       <h1>Ăn uống ở đâu ngon?</h1>
     </section>
     <section class="text-block">
-      <h1>Cocktail chill night</h1>
-    </section>
-    <section class="text-block">
-      <h1>Mua gì làm quà?, địa điểm?</h1>
+      <h1 class="font-bold text-xl border-b border-primary">
+        Cocktail chill night
+      </h1>
+      <div class="flex flex-col gap-y-2 mt-5">
+        <p
+          v-for="item in BARS_PLACES"
+          :key="item"
+          class="text-xs md:text-sm border-l border-primary pl-2"
+        >
+          {{ item }}
+        </p>
+      </div>
     </section>
     <section class="text-block">
       <h1 class="text-2xl font-bold">Gợi ý lịch trình</h1>
@@ -57,7 +65,7 @@
 </template>
 
 <script setup lang="ts">
-import { CHECK_IN_PLACES, DATE1, DATE2 } from "~/constants/data";
+import { CHECK_IN_PLACES, DATE1, DATE2, BARS_PLACES } from "~/constants/data";
 </script>
 
 <style scoped>
