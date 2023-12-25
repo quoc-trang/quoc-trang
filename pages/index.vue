@@ -2,7 +2,7 @@
   <section class="w-screen flex flex-col items-center px-4 relative">
     <div class="mt-32 md:mt-40">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
-      <p class="leading-6 md:leading-8 mt-10">
+      <p class="leading-6 md:leading-8 mt-10 animate-slide-up">
         Hi ✌️,<br />
         I'm a Frontend developer currently working at
         <NuxtLink
@@ -22,7 +22,7 @@
         >
         I want to be famous 😂
       </p>
-      <div class="mt-10 md:mt-20">
+      <div class="mt-10 animate-slide-up animation-delay-100">
         <h1>Find me on</h1>
         <ul class="flex gap-x-5 mt-2">
           <li
@@ -50,7 +50,7 @@
 
     <NuxtLink
       to="https://nuxt.com/"
-      class="flex mt-20 md:mt-40 duration-300 hover:text-primary"
+      class="flex mt-20 md:mt-40 duration-300 hover:text-primary animate-slide-up animation-delay-200"
       target="_blank"
     >
       <span class="mr-2 text-sm translate-y-[2px]">build with</span>
