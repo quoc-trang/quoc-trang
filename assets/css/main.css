@@ -13,10 +13,22 @@ body {
 
 .dark-mode body {
   @apply bg-secondary text-white;
+
+  #logo {
+    path {
+      stroke: #fff;
+    }
+  }
 }
 
 .light-mode body {
   @apply bg-white text-secondary;
+
+  #logo {
+    path {
+      stroke: #000;
+    }
+  }
 }
 
 .animation-delay-100 {

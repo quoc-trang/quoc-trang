@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <Header />
+  <div class="px-4">
+    <header>
+      <Header />
+    </header>
 
     <main>
       <NuxtPage />
