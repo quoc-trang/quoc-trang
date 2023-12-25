@@ -1,7 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <Header />
+
+    <main>
+      <NuxtPage />
+    </main>
+  </div>
 </template>
 
-<script setup lang="ts"></script>
-
-<style scoped></style>
+<script lang="ts" setup>
+useHead({
+  title: "ngoisaocodon",
+});
+</script>

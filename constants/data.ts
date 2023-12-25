@@ -18,21 +18,21 @@ export const SOCIALS = [
 ];
 
 export const NAVBAR = [
-  {
-    to: "/travels",
-    icon: "material-symbols:travel",
-    text: "Travels",
-  },
+  // {
+  //   to: "/travels",
+  //   icon: "material-symbols:travel",
+  //   text: "Travels",
+  // },
   // {
   //   to: "/blog",
   //   icon: "ri:article-line",
   //   text: "Blog",
   // },
-  // {
-  //   to: "/projects",
-  //   icon: "ri:file-paper-2-line",
-  //   text: "Projects",
-  // },
+  {
+    to: "/projects",
+    icon: "ri:file-paper-2-line",
+    text: "Projects",
+  },
 ];
 
 export const CHECK_IN_PLACES = [
@@ -100,4 +100,27 @@ export const BARS_PLACES = [
   "444 - COCKTAIL LOVERS - 01 Đống Đa, P3 ",
   "FOX’ DEN - 56 Tăng Bạt Hổ, P1",
   "WOODY - 49A Trương Công Định, P1",
+];
+
+export const PROJECTS = [
+  {
+    name: "Virtual Aquarium",
+    url: "",
+    description: "A virtual aquarium built with VueJS",
+    techStack: [
+      "devicon:vuejs",
+      "logos:typescript-icon",
+      "logos:tailwindcss-icon",
+    ],
+  },
+  {
+    name: "Tic tac toe",
+    url: "",
+    description: "A tic tac toe game built with VueJS",
+    techStack: [
+      "devicon:vuejs",
+      "logos:typescript-icon",
+      "logos:tailwindcss-icon",
+    ],
+  },
 ];

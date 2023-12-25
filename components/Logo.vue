@@ -21,13 +21,19 @@ const mode = useColorMode();
 
 const colorMode = ref("#fff");
 
-watch(mode, () => {
-  if (mode.value === "dark") {
-    colorMode.value = "#fff";
-  } else {
-    colorMode.value = "#000";
+watch(
+  mode,
+  () => {
+    if (mode.value === "dark") {
+      colorMode.value = "#fff";
+    } else {
+      colorMode.value = "#000";
+    }
+  },
+  {
+    immediate: true,
   }
-});
+);
 </script>
 
 <style lang="postcss" scoped>
