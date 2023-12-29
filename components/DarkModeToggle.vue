@@ -1,14 +1,19 @@
 <template>
-  <IconDark
-    @click="toggleDarkMode('light')"
-    v-if="$colorMode.value === 'dark'"
-  />
-  <IconLight @click="toggleDarkMode('dark')" v-else />
+  <div v-if="$colorMode.preference === 'light'">
+    <IconLight @click="toggleDarkMode('dark')" />
+  </div>
+  <div v-if="$colorMode.preference === 'dark'">
+    <IconDark @click="toggleDarkMode('light')" />
+  </div>
 </template>
 
 <script setup lang="ts">
+const colorMode = useColorMode();
 const toggleDarkMode = (mode: string) => {
-  const colorMode = useColorMode();
   colorMode.preference = mode;
 };
+
+onMounted(() => {
+  colorMode.preference = "light";
+});
 </script>
