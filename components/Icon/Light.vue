@@ -1,5 +1,11 @@
 <template>
-  <svg viewBox="0 0 24 24" width="2em" height="2em" class="icon icon--on">
+  <svg
+    id="light"
+    viewBox="0 0 24 24"
+    width="2em"
+    height="2em"
+    class="icon icon--on cursor-pointer"
+  >
     <g
       fill="none"
       stroke="currentColor"
