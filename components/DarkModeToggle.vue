@@ -14,6 +14,6 @@ const toggleDarkMode = (mode: string) => {
 };
 
 onMounted(() => {
-  colorMode.preference = "light";
+  colorMode.preference = "dark";
 });
 </script>

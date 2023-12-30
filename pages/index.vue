@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col items-center relative">
-    <div class="mt-32 md:mt-40">
+    <div class="mt-20">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
       <p class="leading-6 md:leading-8 mt-10 animate-slide-up">
         Hi ✌️,<br />

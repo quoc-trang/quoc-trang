@@ -30,7 +30,7 @@ export const NAVBAR = [
   // },
   {
     to: "/projects",
-    icon: "ri:file-paper-2-line",
+    // icon: "ri:file-paper-2-line",
     text: "Projects",
   },
 ];
@@ -105,22 +105,12 @@ export const BARS_PLACES = [
 export const PROJECTS = [
   {
     name: "Virtual Aquarium",
-    url: "",
-    description: "A virtual aquarium built with VueJS",
-    techStack: [
-      "devicon:vuejs",
-      "logos:typescript-icon",
-      "logos:tailwindcss-icon",
-    ],
+    url: "https://virtual-aquarium.netlify.app/",
+    src: "",
   },
   {
     name: "Tic tac toe",
-    url: "",
-    description: "A tic tac toe game built with VueJS",
-    techStack: [
-      "devicon:vuejs",
-      "logos:typescript-icon",
-      "logos:tailwindcss-icon",
-    ],
+    url: "https://titac-toe.netlify.app/",
+    src: "",
   },
 ];

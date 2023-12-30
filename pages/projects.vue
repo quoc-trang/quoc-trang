@@ -1,17 +1,18 @@
 <template>
-  <div class="text-center">
-    <h1 class="font-bold text-3xl">Project</h1>
+  <div>
+    <h1 class="font-bold text-lg md:text-3xl text-center">Project</h1>
 
-    <div>
-      <h2 class="text-xl">Vue Certification</h2>
-      <ul class="grid grid-cols-3">
-        <li v-for="(project, index) in PROJECTS" :key="index">
-          <h1>{{ project.name }}</h1>
-          <p>{{ project.description }}</p>
-          <p>
-            <Icon v-for="(tech, i) in project.techStack" :key="i" :name="tech">
-            </Icon>
-          </p>
+    <div class="mt-10">
+      <h2 class="md:text-xl mb-5">From Vue Certification</h2>
+      <ul class="flex flex-col">
+        <li
+          v-for="(project, index) in PROJECTS"
+          :key="index"
+          class="cursor-pointer"
+        >
+          <NuxtLink :to="project.url" target="_blank">
+            <h3>{{ project.name }}</h3>
+          </NuxtLink>
         </li>
       </ul>
     </div>

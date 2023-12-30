@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  @apply leading-6 text-sm md:text-lg;
+  font-family: "DM Sans", sans-serif;
+  @apply leading-6 text-sm md:text-lg font-light;
 }
 
 .fav-border {
