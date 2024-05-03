@@ -12,15 +12,7 @@
           >Raksul Viet Nam</NuxtLink
         >
         <br />
-        Outside of programming, I enjoy staying with my family<br />
-        if you're here please follow my
-        <NuxtLink
-          to="https://www.tiktok.com/@vanlaanh_2k"
-          target="_blank"
-          class="font-bold hover:text-primary duration-300"
-          >Tiktok,</NuxtLink
-        >
-        I want to be famous 😂
+        Outside of programming, I enjoy staying with my family
       </p>
       <div class="mt-10 animate-slide-up animation-delay-100">
         <h1>Find me on</h1>

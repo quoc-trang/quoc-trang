@@ -4,17 +4,17 @@ export const SOCIALS = [
     name: "Twitter",
     url: "https://twitter.com/ngoiisaocodon",
   },
-  {
-    icon: "mdi:instagram",
-    name: "Instagram",
-    url: "https://www.instagram.com/quoctrangg/?hl=en",
-  },
+  // {
+  //   icon: "mdi:instagram",
+  //   name: "Instagram",
+  //   url: "https://www.instagram.com/quoctrangg/?hl=en",
+  // },
   { icon: "mdi:github", name: "Github", url: "https://github.com/quoc-trang" },
-  {
-    icon: "ic:baseline-tiktok",
-    name: "Tiktok",
-    url: "https://www.tiktok.com/@vanlaanh_2k",
-  },
+  // {
+  //   icon: "ic:baseline-tiktok",
+  //   name: "Tiktok",
+  //   url: "https://www.tiktok.com/@vanlaanh_2k",
+  // },
 ];
 
 export const NAVBAR = [
