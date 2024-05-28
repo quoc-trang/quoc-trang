@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-col items-center relative">
-    <div class="mt-20">
+  <section class="flex flex-col items-start relative">
+    <div class="mt-48">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
       <p class="leading-6 md:leading-8 mt-10 animate-slide-up">
         Hi ✌️,<br />
@@ -39,10 +39,14 @@
         </ul>
       </div>
     </div>
-
+    <hr class="w-full my-10" />
+    <!-- <div class="flex items-center gap-x-5">
+      <Navbar />
+      <DarkModeToggle />
+    </div> -->
     <NuxtLink
       to="https://nuxt.com/"
-      class="flex mt-20 md:mt-40 duration-300 hover:text-primary animate-slide-up animation-delay-200"
+      class="flex duration-300 hover:text-primary animate-slide-up animation-delay-200"
       target="_blank"
     >
       <span class="mr-2 text-sm translate-y-[2px]">build with</span>
