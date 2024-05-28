@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul class="flex gap-x-7">
+    <ul class="flex gap-x-5">
       <li
         v-for="(item, index) in NAVBAR"
         :key="index"

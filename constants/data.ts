@@ -18,11 +18,11 @@ export const SOCIALS = [
 ];
 
 export const NAVBAR = [
-  // {
-  //   to: "/travels",
-  //   icon: "material-symbols:travel",
-  //   text: "Travels",
-  // },
+  {
+    to: "/travels",
+    icon: "material-symbols:travel",
+    text: "travels",
+  },
   // {
   //   to: "/blog",
   //   icon: "ri:article-line",
@@ -31,7 +31,7 @@ export const NAVBAR = [
   {
     to: "/projects",
     // icon: "ri:file-paper-2-line",
-    text: "Projects",
+    text: "projects",
   },
 ];
 
@@ -104,13 +104,15 @@ export const BARS_PLACES = [
 
 export const PROJECTS = [
   {
-    name: "Virtual Aquarium",
+    name: "virtural aquarium",
     url: "https://virtual-aquarium.netlify.app/",
-    src: "",
   },
   {
-    name: "Tic tac toe",
+    name: "tic tac toe",
     url: "https://titac-toe.netlify.app/",
-    src: "",
+  },
+  {
+    name: "multiple choice quiz",
+    url: "https://multiple-choice-quiz-1.netlify.app/",
   },
 ];
