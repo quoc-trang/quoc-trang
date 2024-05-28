@@ -8,7 +8,7 @@
         <NuxtLink
           to="https://recruit-vn.raksul.com/"
           target="_blank"
-          class="font-bold hover:text-primary duration-300"
+          class="font-bold hover-text-primary"
           >Raksul Viet Nam</NuxtLink
         >
         <br />
@@ -20,7 +20,7 @@
           <li
             v-for="(social, index) in SOCIALS"
             :key="index"
-            class="hover:text-primary cursor-pointer duration-300"
+            class="hover-text-primary cursor-pointer"
           >
             <NuxtLink
               :to="social.url"
@@ -42,7 +42,7 @@
     <hr class="w-full my-10" />
     <NuxtLink
       to="https://nuxt.com/"
-      class="flex duration-300 hover:text-primary animate-slide-up animation-delay-200"
+      class="flex hover-text-primary animate-slide-up animation-delay-200"
       target="_blank"
     >
       <span class="mr-2 text-sm translate-y-[2px]">build with</span>

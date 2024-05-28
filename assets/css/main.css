@@ -42,3 +42,7 @@ body {
 .animation-delay-300 {
   animation-delay: 300ms;
 }
+
+.hover-text-primary {
+  @apply hover:text-primary duration-300;
+}
