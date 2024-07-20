@@ -31,7 +31,7 @@
                 <Icon :name="social.icon" size="2em" />
               </div>
               <div class="hidden md:block">
-                <Icon :name="social.icon" size="1.5em" />
+                <Icon :name="social.icon" size="1.3em" />
               </div>
               <span class="ml-2 hidden md:block">{{ social.name }}</span>
             </NuxtLink>
@@ -39,7 +39,7 @@
         </ul>
       </div>
     </div>
-    <hr class="w-full my-10" />
+    <hr class="w-full my-5" />
     <NuxtLink
       to="https://nuxt.com/"
       class="flex hover-text-primary animate-slide-up animation-delay-200"
