@@ -3,16 +3,18 @@
     <h1 class="mt-10 mb-5">Mini projects from Vue Certificated</h1>
     <div>
       <ul class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        <li v-for="(project, index) in PROJECTS" :key="index" class="grid-item">
-          <NuxtLink
-            :to="project.url"
-            target="_blank"
-            class="flex justify-between items-center"
-          >
-            <h3>{{ project.name }}</h3>
+        <NuxtLink
+          v-for="(project, index) in PROJECTS"
+          :to="project.url"
+          target="_blank"
+          class="grid-item"
+          :key="index"
+        >
+          <li class="flex justify-between items-center">
+            <h3 class="user-select-none">{{ project.name }}</h3>
             <Icon name="icon-park-outline:click-tap" />
-          </NuxtLink>
-        </li>
+          </li>
+        </NuxtLink>
       </ul>
     </div>
   </div>

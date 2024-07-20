@@ -7,7 +7,6 @@
         class="hover:text-primary duration-300"
       >
         <NuxtLink :to="item.to" class="flex justify-center items-center">
-          <!-- <Icon :name="item.icon" /> -->
           <span class="text-sm ml-1">{{ item.text }}</span>
         </NuxtLink>
       </li>

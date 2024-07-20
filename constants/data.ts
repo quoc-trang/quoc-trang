@@ -1,15 +1,20 @@
 export const SOCIALS = [
-  {
-    icon: "ri:twitter-x-fill",
-    name: "Twitter",
-    url: "https://twitter.com/ngoiisaocodon",
-  },
+  // {
+  //   icon: "ri:twitter-x-fill",
+  //   name: "Twitter",
+  //   url: "https://twitter.com/ngoiisaocodon",
+  // },
   // {
   //   icon: "mdi:instagram",
   //   name: "Instagram",
   //   url: "https://www.instagram.com/quoctrangg/?hl=en",
   // },
   { icon: "mdi:github", name: "Github", url: "https://github.com/quoc-trang" },
+  {
+    icon: "radix-icons:linkedin-logo",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/quoctrang2701/",
+  },
   // {
   //   icon: "ic:baseline-tiktok",
   //   name: "Tiktok",
