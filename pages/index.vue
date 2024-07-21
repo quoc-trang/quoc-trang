@@ -3,14 +3,13 @@
     <div class="mt-10 sm:mt-48">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
       <p class="leading-6 md:leading-8 mt-10 animate-slide-up">
-        Hi ✌️,<br />
-        I'm a Frontend developer currently working at
-        <NuxtLink
+        I'm a Frontend developer
+        <!-- <NuxtLink
           to="https://recruit-vn.raksul.com/"
           target="_blank"
           class="font-bold hover-text-primary"
           >Raksul Viet Nam</NuxtLink
-        >
+        > -->
         <br />
         Outside of programming, I enjoy staying with my family
       </p>
