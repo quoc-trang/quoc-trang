@@ -14,6 +14,6 @@
 
 <script lang="ts" setup>
 useHead({
-  title: "ngoisaocodon",
+  title: "quoc-trang",
 });
 </script>
