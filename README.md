@@ -1,5 +1,5 @@
 ```
-I'm a Full-Stack JS Developer
+I'm a front-end developer
 ```
 
 ```
@@ -7,5 +7,5 @@ I use daily: `.vue`, `.jsx`, `.ts`, `.js`
 ```
 
 ```
-I'm always learning
+Dedicated to learning new technologies and best practices to continually improve as an engineer
 ```
