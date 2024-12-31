@@ -1,15 +1,11 @@
 <template>
   <section class="flex flex-col items-start relative">
-    <div class="mt-10 sm:mt-48">
+    <div class="mt-20 sm:mt-48">
       <h1 class="font-bold inline-block text-3xl">Lê Quốc Trạng</h1>
       <p class="leading-6 md:leading-8 mt-10 animate-slide-up">
-        I'm a Frontend developer
-        <!-- <NuxtLink
-          to="https://recruit-vn.raksul.com/"
-          target="_blank"
-          class="font-bold hover-text-primary"
-          >Raksul Viet Nam</NuxtLink
-        > -->
+        I'm a Software Engineer based in Vietnam
+        <br />
+        I love technology and learning English language
         <br />
         Outside of programming, I enjoy staying with my family
       </p>
