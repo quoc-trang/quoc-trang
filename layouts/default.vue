@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="w-full max-w-4xl mx-4 sm:mx-0">
+    <div class="w-full max-w-4xl mx-4">
       <main>
         <NuxtPage />
       </main>
